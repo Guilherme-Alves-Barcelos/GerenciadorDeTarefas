@@ -1,25 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Home } from "./module/Home";
+import { Register } from "./module/Register";
+import { TaskManager } from "./module/TaskManager";
+import { useState } from "react";
+
 
 function App() {
+
+  const [userName, setUserName] = useState<string>(''); // Estado para armazenar o nome do usuário
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/tasks" element={<TaskManager userName={userName} />} />
+      </Routes>
+  </BrowserRouter>
   );
 }
 
