@@ -1,4 +1,4 @@
-## EM MANUTENÇÃO ##
+## EM CONSTRUÇÃO ##
 
 Gerenciador de Tarefas
 
@@ -24,6 +24,7 @@ Design moderno e intuitivo : Interface baseada no Material Design, tornando a na
 - Área de Login, onde o usuário entra com email e senha cadastrados. Caso o usuário nao possua um cadastro, a aplicação possui a opção "CADASTRE-SE!"
 ![Área de Login](<src/assets/Área de Login.png>)
 
-- Esta fase da aplicação, possui a área de cadastro do usuário. Aqui possui um alerta caso as senhas cadastradas possuam alguma divergência sendo, as senhas não coincidirem, email
+- Área de cadastro do usuário. Aqui possui um alerta caso as senhas cadastradas ou email possuam alguma divergência. Caso esteja tudo certo com as informações, é exibido um modal de conclusão de cadastro.
 ![Cadastro de Usuário](<src/assets/Cadastro de usuário.png>)
 ![Mensagem de Alerta](src/assets/mensagem%20de%20alerta.png)
+![Modal de Conclusão de cadastro](<src/assets/Modal.png>)
