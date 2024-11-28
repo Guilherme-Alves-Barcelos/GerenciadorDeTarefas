@@ -17,4 +17,9 @@ Funcionalidades Implementadas
 Cadastro de tarefas : Permite criar novas tarefas e adicionar informações relacionadas.
 Edição e exclusão de tarefas : Facilita a modificação e remoção de tarefas existentes.
 Responsividade : O layout foi desenvolvido para se ajustar bem em diferentes tamanhos de tela (desktop, tablets e celulares).
-Design moderno e intuitivo : Interface baseada no Material Design, tornando a navegação e o uso do sistema agradável.
+Design moderno e intuitivo : Interface baseada no Material Design, tornando a navegação e o uso do sistema agradável.!
+
+## IMAGENS DO PROJETO ##
+
+
+[Áre de Login, onde o usuário entra com email e senha cadastrados. Caso o usuário nao possua um cadastro, a aplicação possui a opção "CADASTRE-SE!"](<src/assets/Área de Login.png>)
