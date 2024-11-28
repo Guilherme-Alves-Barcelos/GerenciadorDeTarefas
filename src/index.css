@@ -4,13 +4,18 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(37, 37, 37);
+  background-color: rgb(135,206,250);
   background-image: url('./assets/plano\ de\ fundo\ -\ Gerenciador\ de\ Tarefas.png');
   background-size: cover;
+  background-position: center; /* Garante centralização */
+  background-repeat: no-repeat; /* Evita repetição */
   width: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Responsividade para Tablets */
+@media (max-width: 768px) {
+  body {
+    background-size: contain;
+    background-image: none;
+  }
 }

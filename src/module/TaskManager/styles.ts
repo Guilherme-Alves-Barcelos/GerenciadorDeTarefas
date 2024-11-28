@@ -25,10 +25,25 @@ export const Caixa = styled.div`
     color: black;
     gap: 20px;
 
+    @media (max-width: 768px) { /* Tablets */
+        width: 90%;
+        padding: 20px;
+    }
+
+    @media (max-width: 480px) { /* Smartphones */
+        width: 100%;
+        border: none;
+        gap: 15px;
+    }
+
 `;
 
 export const Title = styled.h1`
     font-family: 'Righteous', cursive;
+
+     @media (max-width: 480px) {
+        font-size: 1.5rem;
+    }
 `;
 
 export const NewTask = styled(TextField)`
@@ -36,6 +51,14 @@ export const NewTask = styled(TextField)`
     background-color: white;
     font-family: 'Righteous', sans-serif;
     gap: 10px;
+
+     @media (max-width: 768px) {
+        width: 90%;
+    }
+
+    @media (max-width: 480px) {
+        width: 100%;
+    }
 `;
 
 export const AddTask = styled(AddCircleIcon)`
@@ -99,4 +122,8 @@ export const CampFilterTask = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+`;
+
+export const TitleName = styled.p`
+    font-family: 'Righteous', sans-serif;
 `;

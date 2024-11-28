@@ -3,6 +3,7 @@ import { CustomButton } from "../../componentes/button";
 import { Caixa, Container, CreatePassword, CustomAdressEmail, CustomTextField, SubContainer, Title } from "./styles";
 import { useState } from "react";
 import { ModalRegister } from "../../componentes/modal";
+import { Alert } from "@mui/material";
 
 export const Register = () => {
     const navigate = useNavigate();
@@ -74,7 +75,7 @@ export const Register = () => {
                     onChange={(e) => setConfirmPassword(e.target.value)}
                 />
                 {/* Exibe mensagem de erro, se houver */}
-                {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
+                {errorMessage && <Alert severity="error" style={{ color: 'red' }}>{errorMessage}</Alert>}
                 <SubContainer>
                     <CustomButton label={"Voltar"} onClick={goHome} />
                     {/* Desabilitar botão "Cadastrar" se o formulário não for válido */}

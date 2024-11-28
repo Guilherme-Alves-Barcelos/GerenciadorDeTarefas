@@ -1,4 +1,4 @@
-import { Caixa, CampFilterTask, CheckTask, Container, ContainerTask, DeleteTask, EditTask, FilterTask, NewTask, SearchTask, SubContainer, TextTask, Title } from "./styles"
+import { Caixa, CampFilterTask, CheckTask, Container, ContainerTask, DeleteTask, EditTask, FilterTask, NewTask, SearchTask, SubContainer, TextTask, Title, TitleName } from "./styles"
 import { Fab, TextField } from "@mui/material";
 import AddIcon from '@mui/icons-material/Add';
 import { useState } from "react";
@@ -88,7 +88,7 @@ export const TaskManager = ({ userName }: TaskManagerProps) => {
                 <Title>Gerenciador de Tarefas</Title>
 
                 {/* Parágrafo exibindo o nome do usuário logado */}
-                <p>Usuário logado: {userName}</p>
+                <TitleName>Usuário: {userName}</TitleName>
 
                 {/* Campo para nova tarefa */}
                 <NewTask 
