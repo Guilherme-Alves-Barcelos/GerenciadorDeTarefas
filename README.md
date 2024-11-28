@@ -22,4 +22,4 @@ Design moderno e intuitivo : Interface baseada no Material Design, tornando a na
 ## IMAGENS DO PROJETO ##
 
 
-[Áre de Login, onde o usuário entra com email e senha cadastrados. Caso o usuário nao possua um cadastro, a aplicação possui a opção "CADASTRE-SE!"](<src/assets/Área de Login.png>)
+![Áre de Login, onde o usuário entra com email e senha cadastrados. Caso o usuário nao possua um cadastro, a aplicação possui a opção "CADASTRE-SE!"](<src/assets/Área de Login.png>)
