@@ -28,3 +28,6 @@ Design moderno e intuitivo : Interface baseada no Material Design, tornando a na
 ![Cadastro de Usuário](<src/assets/Cadastro de usuário.png>)
 ![Mensagem de Alerta](src/assets/mensagem%20de%20alerta.png)
 ![Modal de Conclusão de cadastro](<src/assets/Modal.png>)
+
+- Área de inserção de tarefas, onde possuem opções de busca através filtros, editar o texto, excluir e marcar a tarefa concluída. 
+![Área de inserção de tarefas](<src/assets/inserindo tarefas.png>)
