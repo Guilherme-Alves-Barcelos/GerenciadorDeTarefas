@@ -24,6 +24,6 @@ Design moderno e intuitivo : Interface baseada no Material Design, tornando a na
 - Área de Login, onde o usuário entra com email e senha cadastrados. Caso o usuário nao possua um cadastro, a aplicação possui a opção "CADASTRE-SE!"
 ![Área de Login](<src/assets/Área de Login.png>)
 
-- Nesta etapa da aplicação, possui a área de cadastro do usuário. Aqui possui um alerta caso as senhas cadastradas possuam alguma divergência sendo, as senhas não coincidirem, email
+- Esta fase da aplicação, possui a área de cadastro do usuário. Aqui possui um alerta caso as senhas cadastradas possuam alguma divergência sendo, as senhas não coincidirem, email
 ![Cadastro de Usuário](<src/assets/Cadastro de usuário.png>)
 ![Mensagem de Alerta](src/assets/mensagem%20de%20alerta.png)
