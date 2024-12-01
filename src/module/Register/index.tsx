@@ -16,13 +16,23 @@ export const Register = () => {
     const [openModal, setOpenModal] = useState(false);
     const [errorMessage, setErrorMessage] = useState(""); // Estado para mensagem de erro
 
+    const isValidEmail = (email: string) => {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // Regex para verificar formato de email
+        return emailRegex.test(email);
+    };
+
     // Função para navegar de volta à página inicial
     const goHome = () => {
         navigate("/");
     };
 
-    // Função para realizar o cadastro (sem contato com API)
     const handleRegister = () => {
+        // Verifica se o email é válido
+        if (!isValidEmail(email)) {
+            setErrorMessage("Por favor, insira um email válido.");
+            return;
+        }
+
         // Verifica se as senhas coincidem
         if (password !== confirmPassword) {
             setErrorMessage("As senhas não coincidem.");
